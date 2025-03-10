@@ -1,4 +1,4 @@
-export const languageCodes =
+const languageCodes =
 [
     "ab",
     "aa",

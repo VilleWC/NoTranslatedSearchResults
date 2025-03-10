@@ -7,19 +7,11 @@
       "48": "icons/trans.png",
       "96": "icons/trans.png"
     },
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
     "content_scripts": [
       {
         "matches": ["*://*.google.com/*"],
         "js": ["removeSearchResult.js"]
-      },
-      {
-        "matches": ["*://*.w3schools.com/TAgs/ref_language_codes.asp"],
-        "js": ["getLanguageCodes.js"]
-      }
+      }      
     ]   
   }
   
